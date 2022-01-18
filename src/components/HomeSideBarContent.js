@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Input, Button, Empty, Card, Space } from 'antd';
+import { Input, Button, Empty, Card } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import { AiOutlineClose } from 'react-icons/ai';
 import searchImg from '../assets/images/icons/search-user.png';

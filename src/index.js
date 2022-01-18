@@ -5,7 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import './i18n';
 import 'antd/dist/antd.variable.min.css';
 import './assets/styles/style.scss';
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
